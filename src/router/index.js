@@ -7,10 +7,6 @@ Vue.use(VueRouter)
   const routes = [
   {
     path: '/',
-    redirect:'/home'
-  },
-  {
-    path: '/home',
     name: 'Home',
     component: Home
   },
@@ -39,7 +35,7 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   routes,
-  linkActiveClass: 'active'
+  linkActiveClass: 'active',
 })
 
 export default router
