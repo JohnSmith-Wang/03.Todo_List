@@ -1,5 +1,4 @@
 <template>
-  <div>
 
     <main class="container-fluid">
       <div class="col-12 col-xl-6">
@@ -31,7 +30,6 @@
       </div>
     </main>
 
-  </div>
 </template>
 
 <style lang="scss" scoped>

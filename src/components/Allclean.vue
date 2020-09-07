@@ -1,11 +1,7 @@
 <template>
-  <div>
 
-      <div id="allCleanArea">
-        <button id="cleanBtn" class="btn btn-lg btn-dark" @click="destoryHandler">清除所有已完成項目</button>
-      </div>
+  <button id="cleanBtn" class="btn btn-lg btn-dark" @click="destoryHandler">清除所有已完成項目</button>
 
-  </div>
 </template>
 
 <script>
@@ -31,10 +27,3 @@ export default {
     }
 }
 </script>
-
-<style lang="scss" scoped>
-#allCleanArea{
-  margin: 10px auto;
-  text-align: center;
-}
-</style>
